@@ -16,6 +16,13 @@
 		122F37A227CC5A23008EE72C /* SesacWeek23Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122F37A127CC5A23008EE72C /* SesacWeek23Tests.swift */; };
 		122F37AC27CC5A23008EE72C /* SesacWeek23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122F37AB27CC5A23008EE72C /* SesacWeek23UITests.swift */; };
 		122F37AE27CC5A23008EE72C /* SesacWeek23UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122F37AD27CC5A23008EE72C /* SesacWeek23UITestsLaunchTests.swift */; };
+		122F37BE27CEF22F008EE72C /* UserTextFieldTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122F37BD27CEF22F008EE72C /* UserTextFieldTest.swift */; };
+		12845C9527CEF6DF0042E65E /* iOSSnapshotTestCase in Frameworks */ = {isa = PBXBuildFile; productRef = 12845C9427CEF6DF0042E65E /* iOSSnapshotTestCase */; };
+		12845C9727CEFBBE0042E65E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12845C9627CEFBBE0042E65E /* LoginViewController.swift */; };
+		12845C9927CEFE440042E65E /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12845C9827CEFE440042E65E /* LoginViewControllerTests.swift */; };
+		12845C9B27CF04210042E65E /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12845C9A27CF04210042E65E /* Validator.swift */; };
+		12845C9D27CF04AF0042E65E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12845C9C27CF04AF0042E65E /* User.swift */; };
+		12845C9F27CF064D0042E65E /* ValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12845C9E27CF064D0042E65E /* ValidatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,12 @@
 		122F37A727CC5A23008EE72C /* SesacWeek23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SesacWeek23UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		122F37AB27CC5A23008EE72C /* SesacWeek23UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesacWeek23UITests.swift; sourceTree = "<group>"; };
 		122F37AD27CC5A23008EE72C /* SesacWeek23UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesacWeek23UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		122F37BD27CEF22F008EE72C /* UserTextFieldTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTextFieldTest.swift; sourceTree = "<group>"; };
+		12845C9627CEFBBE0042E65E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		12845C9827CEFE440042E65E /* LoginViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTests.swift; sourceTree = "<group>"; };
+		12845C9A27CF04210042E65E /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		12845C9C27CF04AF0042E65E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		12845C9E27CF064D0042E65E /* ValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12845C9527CEF6DF0042E65E /* iOSSnapshotTestCase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,10 +116,13 @@
 				122F378A27CC5A22008EE72C /* AppDelegate.swift */,
 				122F378C27CC5A22008EE72C /* SceneDelegate.swift */,
 				122F378E27CC5A22008EE72C /* ViewController.swift */,
+				12845C9627CEFBBE0042E65E /* LoginViewController.swift */,
 				122F379027CC5A22008EE72C /* Main.storyboard */,
 				122F379327CC5A23008EE72C /* Assets.xcassets */,
 				122F379527CC5A23008EE72C /* LaunchScreen.storyboard */,
 				122F379827CC5A23008EE72C /* Info.plist */,
+				12845C9A27CF04210042E65E /* Validator.swift */,
+				12845C9C27CF04AF0042E65E /* User.swift */,
 			);
 			path = SesacWeek23;
 			sourceTree = "<group>";
@@ -114,6 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				122F37A127CC5A23008EE72C /* SesacWeek23Tests.swift */,
+				12845C9827CEFE440042E65E /* LoginViewControllerTests.swift */,
+				12845C9E27CF064D0042E65E /* ValidatorTests.swift */,
 			);
 			path = SesacWeek23Tests;
 			sourceTree = "<group>";
@@ -123,6 +142,7 @@
 			children = (
 				122F37AB27CC5A23008EE72C /* SesacWeek23UITests.swift */,
 				122F37AD27CC5A23008EE72C /* SesacWeek23UITestsLaunchTests.swift */,
+				122F37BD27CEF22F008EE72C /* UserTextFieldTest.swift */,
 			);
 			path = SesacWeek23UITests;
 			sourceTree = "<group>";
@@ -143,6 +163,9 @@
 			dependencies = (
 			);
 			name = SesacWeek23;
+			packageProductDependencies = (
+				12845C9427CEF6DF0042E65E /* iOSSnapshotTestCase */,
+			);
 			productName = SesacWeek23;
 			productReference = 122F378727CC5A22008EE72C /* SesacWeek23.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +238,9 @@
 				Base,
 			);
 			mainGroup = 122F377E27CC5A22008EE72C;
+			packageReferences = (
+				12845C9327CEF6DF0042E65E /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */,
+			);
 			productRefGroup = 122F378827CC5A22008EE72C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12845C9727CEFBBE0042E65E /* LoginViewController.swift in Sources */,
 				122F378F27CC5A22008EE72C /* ViewController.swift in Sources */,
+				12845C9D27CF04AF0042E65E /* User.swift in Sources */,
+				12845C9B27CF04210042E65E /* Validator.swift in Sources */,
 				122F378B27CC5A22008EE72C /* AppDelegate.swift in Sources */,
 				122F378D27CC5A22008EE72C /* SceneDelegate.swift in Sources */,
 			);
@@ -268,6 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12845C9F27CF064D0042E65E /* ValidatorTests.swift in Sources */,
+				12845C9927CEFE440042E65E /* LoginViewControllerTests.swift in Sources */,
 				122F37A227CC5A23008EE72C /* SesacWeek23Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122F37BE27CEF22F008EE72C /* UserTextFieldTest.swift in Sources */,
 				122F37AC27CC5A23008EE72C /* SesacWeek23UITests.swift in Sources */,
 				122F37AE27CC5A23008EE72C /* SesacWeek23UITestsLaunchTests.swift in Sources */,
 			);
@@ -604,6 +636,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		12845C9327CEF6DF0042E65E /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uber/ios-snapshot-test-case.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		12845C9427CEF6DF0042E65E /* iOSSnapshotTestCase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12845C9327CEF6DF0042E65E /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */;
+			productName = iOSSnapshotTestCase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 122F377F27CC5A22008EE72C /* Project object */;
 }

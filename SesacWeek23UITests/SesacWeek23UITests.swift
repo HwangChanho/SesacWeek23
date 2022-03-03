@@ -23,12 +23,21 @@ class SesacWeek23UITests: XCTestCase {
     }
 
     func testExample() throws {
-        // UI tests must launch the application that they test.
         let app = XCUIApplication()
+        
         app.launch()
-
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        app.staticTexts["First"].tap()
+        app.staticTexts["Second"].tap()
+    }
+    
+    func testViewControllerTransition() throws {
+                let app = XCUIApplication()
+        
+        app.launch()
+        
+        app.staticTexts["Second"].tap()
+        app.staticTexts["Third"].tap()
     }
 
     func testLaunchPerformance() throws {
