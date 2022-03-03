@@ -23,6 +23,8 @@
 		12845C9B27CF04210042E65E /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12845C9A27CF04210042E65E /* Validator.swift */; };
 		12845C9D27CF04AF0042E65E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12845C9C27CF04AF0042E65E /* User.swift */; };
 		12845C9F27CF064D0042E65E /* ValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12845C9E27CF064D0042E65E /* ValidatorTests.swift */; };
+		12AC834B27D04493003C30CC /* APIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AC834A27D04493003C30CC /* APIServiceTests.swift */; };
+		12AC834D27D044E2003C30CC /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AC834C27D044E2003C30CC /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		12845C9A27CF04210042E65E /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		12845C9C27CF04AF0042E65E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		12845C9E27CF064D0042E65E /* ValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorTests.swift; sourceTree = "<group>"; };
+		12AC834A27D04493003C30CC /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
+		12AC834C27D044E2003C30CC /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 				122F379827CC5A23008EE72C /* Info.plist */,
 				12845C9A27CF04210042E65E /* Validator.swift */,
 				12845C9C27CF04AF0042E65E /* User.swift */,
+				12AC834C27D044E2003C30CC /* APIService.swift */,
 			);
 			path = SesacWeek23;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 			children = (
 				122F37A127CC5A23008EE72C /* SesacWeek23Tests.swift */,
 				12845C9827CEFE440042E65E /* LoginViewControllerTests.swift */,
+				12AC834A27D04493003C30CC /* APIServiceTests.swift */,
 				12845C9E27CF064D0042E65E /* ValidatorTests.swift */,
 			);
 			path = SesacWeek23Tests;
@@ -285,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12845C9727CEFBBE0042E65E /* LoginViewController.swift in Sources */,
+				12AC834D27D044E2003C30CC /* APIService.swift in Sources */,
 				122F378F27CC5A22008EE72C /* ViewController.swift in Sources */,
 				12845C9D27CF04AF0042E65E /* User.swift in Sources */,
 				12845C9B27CF04210042E65E /* Validator.swift in Sources */,
@@ -299,6 +306,7 @@
 			files = (
 				12845C9F27CF064D0042E65E /* ValidatorTests.swift in Sources */,
 				12845C9927CEFE440042E65E /* LoginViewControllerTests.swift in Sources */,
+				12AC834B27D04493003C30CC /* APIServiceTests.swift in Sources */,
 				122F37A227CC5A23008EE72C /* SesacWeek23Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
