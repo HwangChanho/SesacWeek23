@@ -28,6 +28,7 @@ class APIServiceTests: XCTestCase {
     // => Dummy, Stub, Fake, Spy, Mock => 테스트가 가능한 객체를 만듬
     // => 속도 개선, 테스트 대상 격리, 예측 불가능한 상황x
     // CallRequest > number 1~45
+    //
     func testExample() throws {
         
         let promise = expectation(description: "hi")
